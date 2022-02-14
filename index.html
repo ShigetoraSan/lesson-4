@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lesson-4</title>
+</head>
+<body>
+	<form action="#" method="post">
+		<p>Имя</p>
+		<input type="text" name="username">
+		<p>Пароль</p>
+		<input type="password" name="userpassword">
+		<p>Телефон</p>
+		<input type="tel" name="usernumber">
+		<p>Пол</p>
+		<input type="radio" name="usergender" value="male">Мужской<br>
+		<input checked type="radio" name="usergender" value="female">Женский
+		<p>Имущество</p>
+		<input type="checkbox" name="item-1">Велик<br>
+		<input checked type="checkbox" name="item-2">Машина<br>
+		<input disabled type="checkbox" name="item-3">Квартира
+		<p>Дополнительная информация</p>
+		<textarea name="info"></textarea>
+		<p>Прикрепить фото</p>
+		<input type="file" name="photo">
+		<p>Любимый цвет</p>
+		<select name="color">
+			<option value="red">Красный</option>
+			<option selected value="green">Зелёный</option>
+			<option value="blue">Синий</option>
+		</select>
+		<p>Действия</p>
+		<button type="submit">Отправить</button>
+		<button type="reset">Очистить</button>
+	</form>
+</body>
+</html>
